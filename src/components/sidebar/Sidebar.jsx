@@ -23,69 +23,46 @@ const Sidebar = () => {
     <div className="sidebar"> 
     <div className="top">
       <Link to="/" style={{textDecoration: "none"}}>
-
-     <span className="logo">Zykar Admin</span>
+     <span className="logo__entity">HEI</span>
+     <span className="logo__title"> Admin</span>
      </Link>
     </div>
     <hr />
     <div className="center">
         <ul>
-           <p className="title">MAIN</p>
           <li>
             <DashboardIcon className="icon" />
+            <Link to="/" style={{textDecoration: "none"}}>
+            <li>
             <span>Dashboard</span>
+            </li>
+            </Link>
             </li>
             <p className="title">LISTS</p>
             <Link to="/users" style={{textDecoration: "none"}}>
             <li>
               <PersonOutlineOutlinedIcon className="icon" />
-            <span>Users</span>
+            <span>All Student</span>
             </li>
             </Link>
             <Link to="/products" style={{textDecoration: "none"}}>
             <li>
               <StoreIcon className="icon" />
-            <span>Products</span>
+            <span>Payement details</span>
             </li>
             </Link>
             <li>
               <CreditCardIcon className="icon" />
-            <span>Orders</span>
+            <span>Overdue Payement</span>
             </li>
+           
+            <li>       
+            <Link to="/login" style={{textDecoration: "none"}}>
             <li>
-              <LocalShippingIcon className="icon" />
-            <span>Delivery</span>
+            <InputOutlinedIcon className="icon" />
+              <span>Logout</span>
             </li>
-            <p className="title">USEFUL LINKS</p>
-            <li>
-              <AnalyticsIcon className="icon" />
-            <span>Stats</span>
-            </li>
-            <li>
-              <NotificationsNoneOutlinedIcon className="icon" />
-            <span>Notifications</span>
-            </li>
-            <p className="title">SERVICE</p>
-            <li>
-              <SettingsSystemDaydreamOutlinedIcon className="icon" />
-            <span>System Health</span>
-            </li>
-            <li>
-              <PsychologyOutlinedIcon className="icon" />
-            <span>Logs</span>
-            </li>
-            <li>
-              <AccountCircleOutlinedIcon className="icon" />
-            <span>Settings</span>
-            </li>
-            <p className="title">USER</p>
-            <li>
-              <SettingsOutlinedIcon className="icon" />
-            <span>Profile</span>
-            </li>
-            <li>
-              <InputOutlinedIcon className="icon" />
-            <span>Logout</span>
+            </Link>
             </li>
         </ul>
 
