@@ -30,15 +30,15 @@ export const userInputs = [
     },
     {
       id: 6,
-      label: "Address",
+      label: "REFERENCES",
       type: "text",
-      placeholder: "Elton St. 216 NewYork",
+      placeholder: "STD21006",
     },
     {
       id: 7,
-      label: "Country",
+      label: "GROUP",
       type: "text",
-      placeholder: "USA",
+      placeholder: "G1",
     },
   ];
   
