@@ -66,10 +66,10 @@ switch (type) {
                 break;
                 case "balance":
                     data = {
-                        title: "Average",
+                        title: "UNPAYED",
                         isMoney: true,
                         link: "See details",
-                        amount : 95,
+                        amount : 120,
                         diff : -1,
                         icon: (
                             <FunctionsTwoTone className="icon" 
